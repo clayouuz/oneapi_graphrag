@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD.&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Transwarp Information Technology (Shanghai) Co., Ltd. is a company for which a performance forecast is made, and its financial data will be officially disclosed in an audited annual report for 2024."&lt;SEP&gt;"Transwarp Information Technology (Shanghai) Co., Ltd. is a company providing technological services and solutions, currently experiencing financial challenges with an expected increase in net profit losses for the year 2024."</data>
+      <data key="d2">chunk-6214686c446993a5f88b65000effc0cb&lt;SEP&gt;chunk-d91de40bccc1f8884b51c7fa8d645647</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;THE BOARD OF DIRECTORS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The board responsible for overseeing the operations and strategic direction of Transwarp Information Technology (Shanghai) Co., Ltd."</data>
+      <data key="d2">chunk-6214686c446993a5f88b65000effc0cb</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;2024 ANNUAL PERFORMANCE FORECAST&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The 2024 Annual Performance Forecast is a financial report predicting increased net profit losses for Transwarp Information Technology (Shanghai) Co., Ltd. compared to the previous year."</data>
+      <data key="d2">chunk-6214686c446993a5f88b65000effc0cb</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;NET PROFIT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Net Profit refers to the financial performance outcome of Transwarp Information Technology (Shanghai) Co., Ltd. for the year 2024, expected to be negative according to the forecast."</data>
+      <data key="d2">chunk-6214686c446993a5f88b65000effc0cb</data>
+    </node>
+    <node id="&quot;NON-RECURRING GAINS AND LOSSES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Non-recurring Gains and Losses refer to the atypical financial activities that affect the profitability of Transwarp Information Technology (Shanghai) Co., Ltd."</data>
+      <data key="d2">chunk-6214686c446993a5f88b65000effc0cb</data>
+    </node>
+    <node id="&quot;JANUARY 1, 2024, TO DECEMBER 31, 2024&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"This period marks the fiscal year for which Transwarp Information Technology (Shanghai) Co., Ltd.'s performance forecast applies."</data>
+      <data key="d2">chunk-6214686c446993a5f88b65000effc0cb</data>
+    </node>
+    <node id="&quot;OWNERS OF THE PARENT COMPANY&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The Owners of the Parent Company are the stakeholders or shareholders to whom the company's net profit results are attributed."</data>
+      <data key="d2">chunk-6214686c446993a5f88b65000effc0cb</data>
+    </node>
+    <node id="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Transwarp Information Technology (Shanghai) Co., Ltd is a company involved in the development and provision of big data and AI tools with a goal to enhance data and intelligence integration in enterprise applications."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;SHANGHAI&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Shanghai is the geographical location where Transwarp Information Technology is based."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;2024 ANNUAL REPORT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The 2024 Annual Report is a forthcoming disclosure by Transwarp Information Technology that will provide audited financial data for the year 2024."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;BOARD OF DIRECTORS OF TRANSWARP INFORMATION TECHNOLOGY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Board of Directors of Transwarp Information Technology is responsible for overseeing the company's operations and has issued the latest performance forecast announcement."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;THE COMPANY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Company refers to Transwarp Information Technology (Shanghai) Co., Ltd, which is experiencing financial challenges and focuses on big data and AI solutions."&lt;SEP&gt;"The Company refers to Transwarp Information Technology (Shanghai) Co., Ltd., which is the subject of the performance forecast and will provide an audited annual report for 2024."</data>
+      <data key="d2">chunk-d91de40bccc1f8884b51c7fa8d645647&lt;SEP&gt;chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;2023 FINANCIAL PERFORMANCE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The 2023 Financial Performance describes the net profits and earnings per share of Transwarp Information Technology for the year 2023."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;MACRO-ECONOMY&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The Macro-economy is impacting the Company by causing delays in revenue recognition and caution in procurement decisions by customers."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;BIG DATA INFRASTRUCTURE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Big Data Infrastructure refers to the technological framework that supports the management and analysis of large data sets and is being integrated with AI infrastructure."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;AI INFRASTRUCTURE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"AI Infrastructure describes the systems and tools designed to support artificial intelligence applications and is being integrated with big data infrastructure."</data>
+      <data key="d2">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+    </node>
+    <node id="&quot;BOARD OF DIRECTORS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Board of Directors is responsible for the announcement regarding the performance forecast of Transwarp Information Technology (Shanghai) Co., Ltd."</data>
+      <data key="d2">chunk-d91de40bccc1f8884b51c7fa8d645647</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;JANUARY 25, 2025&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"January 25, 2025, is the date on which the announcement by the Board of Directors was made."</data>
+      <data key="d2">chunk-d91de40bccc1f8884b51c7fa8d645647</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD.&quot;" target="&quot;THE BOARD OF DIRECTORS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Board of Directors oversees and is involved in issuing the Annual Performance Forecast for the company."</data>
+      <data key="d6">chunk-6214686c446993a5f88b65000effc0cb</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD.&quot;" target="&quot;2024 ANNUAL PERFORMANCE FORECAST&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The company is the subject of the 2024 Annual Performance Forecast, which predicts significant financial losses."</data>
+      <data key="d6">chunk-6214686c446993a5f88b65000effc0cb</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD.&quot;" target="&quot;BOARD OF DIRECTORS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Board of Directors made the announcement regarding the performance forecast of Transwarp Information Technology (Shanghai) Co., Ltd."</data>
+      <data key="d6">chunk-d91de40bccc1f8884b51c7fa8d645647</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD&quot;" target="&quot;SHANGHAI&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Transwarp Information Technology is based in Shanghai, where the company operates and is registered."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD&quot;" target="&quot;2024 ANNUAL REPORT&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The company will release the 2024 Annual Report containing the audited financial data for the year 2024."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TRANSWARP INFORMATION TECHNOLOGY (SHANGHAI) CO., LTD&quot;" target="&quot;BOARD OF DIRECTORS OF TRANSWARP INFORMATION TECHNOLOGY&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Board of Directors supervises the activities and performance of Transwarp Information Technology."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;2024 ANNUAL REPORT&quot;" target="&quot;BOARD OF DIRECTORS OF TRANSWARP INFORMATION TECHNOLOGY&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Board of Directors will be responsible for the approval and disclosure of the 2024 Annual Report."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;THE COMPANY&quot;" target="&quot;MACRO-ECONOMY&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Company's financial performance is being negatively affected by the broader Macro-economy, leading to delayed revenue recognition."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;THE COMPANY&quot;" target="&quot;2023 FINANCIAL PERFORMANCE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Company's 2023 Financial Performance provides context for the predicted financial outcomes for 2024."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;THE COMPANY&quot;" target="&quot;BIG DATA INFRASTRUCTURE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Company is committed to the development and integration of Big Data Infrastructure as part of its service offerings."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;THE COMPANY&quot;" target="&quot;AI INFRASTRUCTURE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Company focuses on advancing AI Infrastructure to improve efficiency and data integration in enterprise applications."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BIG DATA INFRASTRUCTURE&quot;" target="&quot;AI INFRASTRUCTURE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Big Data Infrastructure and AI Infrastructure are being integrated to enhance enterprise applications with data and intelligence."</data>
+      <data key="d6">chunk-11973158bfcad0078322bfb5fa4fdd98</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BOARD OF DIRECTORS&quot;" target="&quot;JANUARY 25, 2025&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Board of Directors made the announcement on January 25, 2025."</data>
+      <data key="d6">chunk-d91de40bccc1f8884b51c7fa8d645647</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>
