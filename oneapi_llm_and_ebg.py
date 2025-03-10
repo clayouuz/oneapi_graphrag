@@ -14,21 +14,23 @@ logging.getLogger("nano-graphrag").setLevel(logging.INFO)
 dotenv_path = '.env'
 load_dotenv(dotenv_path)
 
-LLM_API_KEY = os.getenv('LLM_API_KEY')
 
+LLM_API_KEY = os.getenv('GEMINI_API_KEY')
 EMB_API_KEY = LLM_API_KEY
 
-# LLM_URL = "http://localhost:30000/v1/"
-LLM_URL = "http://host.docker.internal:30000/v1/"
-
+LLM_URL = os.getenv('GEMINI_URL')
 EMB_URL=LLM_URL
 
 # MODEL="qwen:0.5b"
 # EMBEDDING_MODEL="nomic-embed-text:latest"
 
-MODEL="gpt-4o"
-EMBEDDING_MODEL="text-embedding-3-small"
+# llm_dim=1536 #gpt-4o
+# MODEL="gpt-4o"
+# EMBEDDING_MODEL="text-embedding-3-small"
 
+llm_dim=768 #gemini-1.5-flash
+MODEL="gemini-2.0-flash"
+EMBEDDING_MODEL='text-embedding-004'
 
 async def llm_model_if_cache(
     prompt, system_prompt=None, history_messages=[], **kwargs
@@ -87,7 +89,7 @@ def wrap_embedding_func_with_attrs(**kwargs):
 
     return final_decro
 
-@wrap_embedding_func_with_attrs(embedding_dim=1536, max_token_size=8192)
+@wrap_embedding_func_with_attrs(embedding_dim=llm_dim, max_token_size=8192)
 async def embedding_model(texts: list[str]) -> np.ndarray:
     model_name = EMBEDDING_MODEL
     client = OpenAI(
@@ -103,9 +105,9 @@ async def embedding_model(texts: list[str]) -> np.ndarray:
 
 
 
-WORKING_DIR = "./oai_TEST"
+WORKING_DIR = "./gemini_TEST"
 
-def query():
+def query(qu=None):
     rag = GraphRAG(
         working_dir=WORKING_DIR,
         best_model_func=llm_model_if_cache,
@@ -114,7 +116,7 @@ def query():
     )
     print(
         rag.query(
-            "Tell me about the operating situation of this company.", param=QueryParam(mode="global")
+            "Give me an abstract of the text.", param=QueryParam(mode="global",only_need_context=True)
         )
     )
 
@@ -122,7 +124,7 @@ def query():
 def insert():
     from time import time
 
-    with open("./1.txt", encoding="utf-8-sig") as f:
+    with open("./book.txt", encoding="utf-8-sig") as f:
         FAKE_TEXT = f.read()
 
     remove_if_exist(f"{WORKING_DIR}/vdb_entities.json")
@@ -137,7 +139,8 @@ def insert():
         best_model_func=llm_model_if_cache,
         cheap_model_func=llm_model_if_cache,
         embedding_func=embedding_model,
-        chunk_token_size=512,
+        chunk_token_size=1024,
+        
     )
     start = time()
     rag.insert(FAKE_TEXT)

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="order" attr.type="long"/>
+<key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="description" attr.type="string"/>
+<key id="d4" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d3" for="node" attr.name="clusters" attr.type="string"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;MAINE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Maine is a state with remote islands where the story takes place."</data>
+  <data key="d2">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d3">[{"level": 0, "cluster": 2}]</data>
+</node>
+<node id="&quot;ELEANOR HARPER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Eleanor Harper is a lightkeeper at Widow's Point Light."&lt;SEP&gt;"Eleanor Harper is the full name of the lightkeeper at Widow's Point, dedicated to her role."</data>
+  <data key="d2">chunk-ceabed316e96d018583601b0f94f59bb&lt;SEP&gt;chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d3">[{"level": 0, "cluster": 1}]</data>
+</node>
+<node id="&quot;COAST GUARD STATION ROCKLAND&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Coast Guard Station Rockland is a Coast Guard station that communicates with Eleanor Harper during the storm."</data>
+  <data key="d2">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d3">[{"level": 0, "cluster": 0}]</data>
+</node>
+<node id="&quot;WIDOW'S POINT LIGHT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Widow's Point Light is a lighthouse where Eleanor Harper works."</data>
+  <data key="d2">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d3">[{"level": 0, "cluster": 1}]</data>
+</node>
+<node id="&quot;TOM&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Tom is Eleanor Harper's deceased husband."</data>
+  <data key="d2">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d3">[{"level": 0, "cluster": 1}]</data>
+</node>
+<node id="&quot;STORM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A severe storm that strikes the islands of Maine, causing Eleanor Harper to take precautions and rescue an injured gull."</data>
+  <data key="d2">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d3">[{"level": 0, "cluster": 2}]</data>
+</node>
+<node id="&quot;THE LAST LIGHTKEEPER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Last Lightkeeper is the title of the text."</data>
+  <data key="d2">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+</node>
+<node id="&quot;ROCKLAND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Rockland is the location of the Coast Guard Station that communicates with Eleanor."</data>
+  <data key="d2">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d3">[{"level": 0, "cluster": 0}]</data>
+</node>
+<node id="&quot;ELEANOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Eleanor is the last lightkeeper of Widow's Point, dedicated to keeping the lighthouse flame burning for the past thirty years."</data>
+  <data key="d2">chunk-ceabed316e96d018583601b0f94f59bb</data>
+</node>
+<node id="&quot;WIDOW'S POINT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Widow's Point is the location of the lighthouse where Eleanor works and lives."</data>
+  <data key="d2">chunk-ceabed316e96d018583601b0f94f59bb</data>
+</node>
+<node id="&quot;THE LIGHTHOUSE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Lighthouse is a structure on Widow's Point, serving as a beacon to guide ships and the place where Eleanor works."</data>
+  <data key="d2">chunk-ceabed316e96d018583601b0f94f59bb</data>
+</node>
+<node id="&quot;FISHING BOAT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A Fishing Boat appears in the distance, greeted by Eleanor, representing maritime activity."</data>
+  <data key="d2">chunk-ceabed316e96d018583601b0f94f59bb</data>
+</node>
+<node id="&quot;THE STORM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Storm is a major event that occurs, causing wind, lightning, and some damage, but eventually passes."</data>
+  <data key="d2">chunk-ceabed316e96d018583601b0f94f59bb</data>
+</node>
+<node id="&quot;THE GULL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The Gull is an injured bird that Eleanor cares for during the storm and who later perches beside her."</data>
+  <data key="d2">chunk-ceabed316e96d018583601b0f94f59bb</data>
+</node>
+<edge source="&quot;MAINE&quot;" target="&quot;STORM&quot;">
+  <data key="d4">5.0</data>
+  <data key="d5">"The storm impacts the remote islands of Maine."</data>
+  <data key="d6">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;ELEANOR HARPER&quot;" target="&quot;WIDOW'S POINT LIGHT&quot;">
+  <data key="d4">10.0</data>
+  <data key="d5">"Eleanor Harper works as a lightkeeper at Widow's Point Light."</data>
+  <data key="d6">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;ELEANOR HARPER&quot;" target="&quot;COAST GUARD STATION ROCKLAND&quot;">
+  <data key="d4">8.0</data>
+  <data key="d5">"Eleanor Harper communicates with Coast Guard Station Rockland during the storm."</data>
+  <data key="d6">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;ELEANOR HARPER&quot;" target="&quot;TOM&quot;">
+  <data key="d4">3.0</data>
+  <data key="d5">"Tom is Eleanor Harper's deceased husband and she hasn't talked since he passed away."</data>
+  <data key="d6">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;ELEANOR HARPER&quot;" target="&quot;STORM&quot;">
+  <data key="d4">8.0</data>
+  <data key="d5">"Eleanor Harper responds to the incoming storm by securing the lighthouse and surrounding buildings."</data>
+  <data key="d6">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;COAST GUARD STATION ROCKLAND&quot;" target="&quot;WIDOW'S POINT LIGHT&quot;">
+  <data key="d4">6.0</data>
+  <data key="d5">"Coast Guard Station Rockland monitors weather conditions and communicates with Widow's Point Light."</data>
+  <data key="d6">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;COAST GUARD STATION ROCKLAND&quot;" target="&quot;ROCKLAND&quot;">
+  <data key="d4">10.0</data>
+  <data key="d5">"Rockland is the location of Coast Guard Station Rockland."</data>
+  <data key="d6">chunk-1bbb8d474d19547ce5d4f5dcd6376ad2</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;ELEANOR&quot;" target="&quot;WIDOW'S POINT&quot;">
+  <data key="d4">10.0</data>
+  <data key="d5">"Eleanor lives and works at Widow's Point, serving as the lightkeeper."</data>
+  <data key="d6">chunk-ceabed316e96d018583601b0f94f59bb</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;ELEANOR&quot;" target="&quot;THE LIGHTHOUSE&quot;">
+  <data key="d4">10.0</data>
+  <data key="d5">"Eleanor is the lightkeeper of the Lighthouse, dedicated to maintaining its function."</data>
+  <data key="d6">chunk-ceabed316e96d018583601b0f94f59bb</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;ELEANOR&quot;" target="&quot;FISHING BOAT&quot;">
+  <data key="d4">6.0</data>
+  <data key="d5">"Eleanor greets the Fishing Boat as it appears in the distance."</data>
+  <data key="d6">chunk-ceabed316e96d018583601b0f94f59bb</data>
+  <data key="d7">1</data>
+</edge>
+<edge source="&quot;WIDOW'S POINT&quot;" target="&quot;THE LIGHTHOUSE&quot;">
+  <data key="d4">10.0</data>
+  <data key="d5">"The Lighthouse is located at Widow's Point."</data>
+  <data key="d6">chunk-ceabed316e96d018583601b0f94f59bb</data>
+  <data key="d7">1</data>
+</edge>
+</graph></graphml>
